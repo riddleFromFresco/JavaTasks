@@ -15,7 +15,7 @@ public class task10 {
 
     int onesCounter = 0;
 
-    int countOnes() { // перечитай условие задачи
+    int countOnes() {
         Scanner sc = new Scanner(System.in);
         String num = sc.nextLine();
 

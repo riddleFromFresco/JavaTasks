@@ -133,9 +133,9 @@ class TestPanel extends JPanel {
         int maxShape = 3;
 
         int minPosX = 10;
-        int maxPosX = 600;
+        int maxPosX = 550;
         int minPosY = 10;
-        int maxPosY = 550;
+        int maxPosY = 500;
 
         for (int i = 0; i < 20; i++){
             int shapeNum = random.nextInt(maxShape - minShape) + minShape;
