@@ -2,7 +2,7 @@ package tasks.task10;
 
 import java.util.Scanner;
 
-public class task10 {
+public class Task10 {
     int reverse(int num, int res) {
         if (num > 0) {
             res = (res * 10) + num % 10;
@@ -61,9 +61,11 @@ public class task10 {
 
         System.out.printf("%d ", last);
     }
+}
 
+class Task10Test {
     public static void main(String[] args) {
-        task10 tsk = new task10();
+        Task10 tsk = new Task10();
 
         int reversed = tsk.reverse(12345, 0);
         System.out.println("Subtask 1");

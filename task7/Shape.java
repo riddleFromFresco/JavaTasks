@@ -1,7 +1,5 @@
 package tasks.task7;
 
-import java.util.concurrent.RecursiveAction;
-
 abstract public class Shape {
     String color;
     boolean filled;

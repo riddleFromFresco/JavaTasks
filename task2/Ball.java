@@ -38,7 +38,7 @@ public class Ball {
    }
 }
 
-class testBall {
+class TestBall {
     public static void main(String[] args) {
         Ball firstBall = new Ball();
         Ball secondBall = new Ball("red", 10.0, 20.0);

@@ -3,7 +3,7 @@ package tasks.task1;
 import java.util.Random;
 import java.util.Arrays;
 
-public class Lab1 {
+class Task1 {
     static int[] array =  {1 , 4, 54, 65};
 
     private static int forBasedSum(int[] arr){
@@ -68,18 +68,24 @@ public class Lab1 {
     }
 
     public static void main(String[] args) {
-        //System.out.println(forBasedSum(array));
-        //System.out.println(whileBasedSum(array));
-        //System.out.println(doWhileBasedSum(array));
+        System.out.println("subtask 1");
+        System.out.println(forBasedSum(array));
+        System.out.println("subtask 2");
+        System.out.println(whileBasedSum(array));
+        System.out.println("subtask 3");
+        System.out.println(doWhileBasedSum(array));
 
-        //for(String arg: args){
-        //System.out.println(arg);
+        System.out.println("subtask 4");
+        for(String arg: args)
+            System.out.println(arg);
 
-        //garmPrint();
+        System.out.println("subtask 5");
+        garmPrint();
 
-        //generator();
+        System.out.println("subtask 6");
+        generator();
 
+        System.out.println("subtask 7");
         fact(6);
-
     }
 }

@@ -81,7 +81,9 @@ class FootballTable extends JFrame {
         add(madridBtn, BorderLayout.EAST);
         add(lastScorerLbl, BorderLayout.SOUTH);
     }
+}
 
+class FootballTableTest {
     public static void main(String[] args) {
         new FootballTable().setVisible(true);
     }

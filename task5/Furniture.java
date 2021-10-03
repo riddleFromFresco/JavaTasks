@@ -1,6 +1,5 @@
 package tasks.task5;
 
-import java.util.ArrayList;
 import java.util.Vector;
 
 abstract class Furniture {

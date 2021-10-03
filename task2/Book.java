@@ -1,6 +1,6 @@
 package tasks.task2;
 
-import  java.util.ArrayList;
+import java.util.ArrayList;
 
 public class Book {
     private String authorName;

@@ -2,10 +2,9 @@ package tasks.task8;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.geom.Ellipse2D;
 import java.awt.geom.Path2D;
-import java.util.Vector;
 import java.util.Random;
+import java.util.Vector;
 
 abstract class Shape {
     protected Vector<Integer> color = new Vector<Integer>();

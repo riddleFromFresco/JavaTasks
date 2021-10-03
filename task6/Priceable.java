@@ -43,7 +43,7 @@ class Processor implements Priceable {
     }
 }
 
-class Lab4Priceable {
+class PriceableTest {
     public static void main(String[] args) {
         Keyboard testKeyboard = new Keyboard(500.0);
         System.out.println(testKeyboard.getPrice());

@@ -9,7 +9,7 @@ import java.awt.event.KeyEvent;
 import java.io.IOException;
 import java.util.Random;
 
-class Frame extends JFrame {
+class GameFrame extends JFrame {
     JLabel rulesLabel;
     JTextField answerField;
     JButton okButton;
@@ -33,7 +33,7 @@ class Frame extends JFrame {
     final String CONGRATS_GIF_PATH = "congratulations.gif";
     final String LOSER_GIF_PATH = "loser.gif";
 
-    public Frame() throws IOException {
+    public GameFrame() throws IOException {
         initValues();
         setUpWindow();
 
@@ -167,9 +167,9 @@ class Frame extends JFrame {
     }
 }
 
-public class Game {
+class GameTest {
     public static void main(String[] args) throws IOException {
-        Frame f = new Frame();
+        GameFrame f = new GameFrame();
         f.setVisible(true);
     }
 }

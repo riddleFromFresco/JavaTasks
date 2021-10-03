@@ -43,7 +43,7 @@ class Car implements Nameable {
     }
 }
 
-class LabTask4 {
+class NameableTest {
     public static void main(String[] args) {
         Cat testCat = new Cat("Lucky");
         System.out.println(testCat.getName());
