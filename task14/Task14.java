@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 abstract class Game {
-    final int NUMBER_OF_CARDS = 5;
-
     void start() {
         ArrayList<String> allCards = getUserCards();
         fillDecks(allCards);
