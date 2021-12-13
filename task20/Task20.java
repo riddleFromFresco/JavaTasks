@@ -4,7 +4,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Scanner;
 
-public class Task20 extends Task {
+public class Task20 {
 	void subtask1()
 	{
 		System.out.println("Enter date according the format: yyyy-MM-dd HH:mm");

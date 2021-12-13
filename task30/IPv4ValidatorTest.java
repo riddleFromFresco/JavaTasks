@@ -14,7 +14,7 @@ public class IPv4ValidatorTest {
 		ArrayList<String> testData = new ArrayList<>(Arrays.asList("255.255.100.110", "256.10.30.50",
 				"20.0.279.50", "20.48.70.64", "10.10.200"));
 
-		ArrayList<Boolean> expected = new ArrayList<>(Arrays.asList(true, false, false, true));
+		ArrayList<Boolean> expected = new ArrayList<>(Arrays.asList(true, false, false, true, false));
 		ArrayList<Boolean> actual = new ArrayList<>();
 
 		IPv4Validator validator = new IPv4Validator();

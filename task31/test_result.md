@@ -1,5 +1,4 @@
 # Test result
----
 ## Time: 0,007
 There was 1 failure:
 1) validate(tasks.task30.IPv4ValidatorTest)

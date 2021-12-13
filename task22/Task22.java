@@ -1,6 +1,6 @@
 package tasks.task22;
 
-public abstract class Task22 implements ChairFactory {
+public abstract class Task22 {
 	public static void main(String[] args) {
 		VictorianChairFactory victorianChairFactory = new VictorianChairFactory();
 		MagicChairFactory magicChairFactory = new MagicChairFactory();

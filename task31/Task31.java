@@ -30,7 +30,7 @@ public class Task31 {
 		System.setOut(System.out);
 		String testResult = baos.toString();
 
-		testResult = "# Test result" + "\n---" + testResult;
+		testResult = "# Test result" + testResult;
 		testResult = testResult.replace(".E", "");
 		testResult = makeHeaderFromSubstr(testResult, "FAILURES!!!", 2);
 		testResult = makeHeaderFromSubstr(testResult, "Time:", 2);
