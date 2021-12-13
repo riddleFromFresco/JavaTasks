@@ -3,7 +3,7 @@ package tasks.task21;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class SubwayLines {
+public class SubwayLines extends Task21 {
 	ArrayList<String> lines;
 
 	public SubwayLines()

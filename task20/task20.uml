@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>tasks.task20</OriginalElement>
+  <nodes>
+    <node x="25.75" y="0.0">tasks.task20.DateTypeBuilder</node>
+    <node x="162.0" y="127.0">tasks.task20.CalendarBuilder</node>
+    <node x="401.58620689655174" y="0.0">tasks.task20.Task</node>
+    <node x="386.41379310344826" y="211.75862068965517">tasks.task20.Task20</node>
+    <node x="0.0" y="127.0">tasks.task20.DateBuilder</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="tasks.task20.Task20" target="tasks.task20.Task" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="616.0862068965516" y="272.2586206896552" />
+      <point x="616.0862068965516" y="13.189655172413794" />
+      <point x="485.08620689655174" y="13.189655172413794" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="tasks.task20.Task20" target="tasks.task20.DateBuilder" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="421.65517241379314" y="272.2586206896552" />
+      <point x="421.65517241379314" y="299.15517241379314" />
+      <point x="-37.491379310344826" y="299.15517241379314" />
+      <point x="-37.491379310344826" y="139.98275862068965" />
+      <point x="30.49137931034491" y="139.98275862068965" />
+      <point x="30.49137931034491" y="165.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="tasks.task20.CalendarBuilder" target="tasks.task20.DateTypeBuilder" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="244.5" y="102.0" />
+      <point x="157.75" y="102.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="tasks.task20.Task20" target="tasks.task20.CalendarBuilder" relationship="GENERALIZATION">
+      <point x="0.0" y="-60.5" />
+      <point x="392.0517241379312" y="211.75862068965517" />
+      <point x="392.0517241379312" y="272.2586206896552" />
+      <point x="360.84051724137936" y="272.2586206896552" />
+      <point x="360.84051724137936" y="136.75862068965517" />
+      <point x="291.0344827586207" y="136.75862068965517" />
+      <point x="291.0344827586207" y="165.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="tasks.task20.DateBuilder" target="tasks.task20.DateTypeBuilder" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="71.0" y="102.0" />
+      <point x="157.75" y="102.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.4500000000000002" showDependencies="false" x="284.4655172413795" y="199.74137931034483" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

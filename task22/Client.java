@@ -1,6 +1,6 @@
 package tasks.task22;
 
-public class Client {
+public abstract class Client implements Chair {
 	boolean sitting = false;
 	Chair chair;
 

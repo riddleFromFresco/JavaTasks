@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>tasks.task22</OriginalElement>
+  <nodes>
+    <node x="0.0" y="136.5">tasks.task22.MagicChair</node>
+    <node x="397.0" y="137.0">tasks.task22.VictorianChair</node>
+    <node x="-58.0" y="428.4347826086956">tasks.task22.MultifunctionalChairFactory</node>
+    <node x="165.0" y="126.0">tasks.task22.MultifunctionalChair</node>
+    <node x="649.2758620689656" y="302.9347826086956">tasks.task22.Task22</node>
+    <node x="196.0" y="428.4347826086956">tasks.task22.MagicChairFactory</node>
+    <node x="707.2758620689656" y="0.0">tasks.task22.Client</node>
+    <node x="198.5" y="0.0">tasks.task22.Chair</node>
+    <node x="212.5" y="324.4347826086956">tasks.task22.ChairFactory</node>
+    <node x="397.0" y="428.4347826086956">tasks.task22.VictorianChairFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="tasks.task22.Client" target="tasks.task22.Chair" relationship="REALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="784.6812074731864" y="72.5" />
+      <point x="784.6812074731864" y="38.0" />
+      <point x="377.0457014543792" y="38.0" />
+      <point x="377.0457014543792" y="19.73913043478261" />
+      <point x="312.7185029011026" y="19.73913043478261" />
+      <point x="312.7185029011026" y="38.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="tasks.task22.MagicChairFactory" target="tasks.task22.ChairFactory" relationship="REALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="tasks.task22.Task22" target="tasks.task22.ChairFactory" relationship="REALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="702.4210875331564" y="341.4347826086956" />
+      <point x="702.4210875331564" y="368.3313343328336" />
+      <point x="588.6525198938989" y="368.3313343328336" />
+      <point x="588.6525198938989" y="344.88305847076464" />
+      <point x="252.0775862068965" y="344.88305847076464" />
+      <point x="252.0775862068965" y="351.4347826086956" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="tasks.task22.MultifunctionalChairFactory" target="tasks.task22.ChairFactory" relationship="REALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="59.0" y="403.4347826086956" />
+      <point x="286.5" y="403.4347826086956" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="tasks.task22.MultifunctionalChair" target="tasks.task22.Chair" relationship="REALIZATION">
+      <point x="0.0" y="-71.5" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="tasks.task22.VictorianChair" target="tasks.task22.Chair" relationship="REALIZATION">
+      <point x="0.0" y="-60.5" />
+      <point x="469.5" y="101.0" />
+      <point x="271.0" y="101.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="tasks.task22.MagicChair" target="tasks.task22.Chair" relationship="REALIZATION">
+      <point x="0.0" y="-61.0" />
+      <point x="72.5" y="101.0" />
+      <point x="271.0" y="101.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="tasks.task22.VictorianChairFactory" target="tasks.task22.ChairFactory" relationship="REALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="494.5" y="403.4347826086956" />
+      <point x="286.5" y="403.4347826086956" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.1500000000000001" showDependencies="false" x="490.0891797152488" y="312.8111952427147" />
+  <SelectedNodes>
+    <node>tasks.task22.MultifunctionalChairFactory</node>
+    <node>tasks.task22.Task22</node>
+    <node>tasks.task22.MagicChairFactory</node>
+    <node>tasks.task22.ChairFactory</node>
+    <node>tasks.task22.VictorianChairFactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

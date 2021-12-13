@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>tasks.task21</OriginalElement>
+  <nodes>
+    <node x="-14.5" y="-6.206896551724128">tasks.task21.SubwayLines</node>
+    <node x="0.0" y="122.0">tasks.task21.Task21</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="tasks.task21.SubwayLines" target="tasks.task21.Task21" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="74.5" y="10.439655172413808" />
+      <point x="215.55172413793105" y="10.439655172413808" />
+      <point x="215.55172413793105" y="187.64655172413794" />
+      <point x="74.5" y="187.64655172413794" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.45" showDependencies="false" x="135.55172413793105" y="118.58620689655169" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
